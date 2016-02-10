@@ -114,7 +114,7 @@ if (app.get('env') === 'development') {
 // no stacktraces leaked to user
 if(app.get('env') === 'production')
 {
-  mongoose.connect("mongodb://localhost/shopping",function(err){
+  mongoose.connect("mongodb://santosh:123456@ds061335.mongolab.com:61335/shopnonstop",function(err){
     if(err)
     {
       console.log(err);
